@@ -1,0 +1,52 @@
+.bg-color {
+    background-color: #0f2259;
+  }
+  nav {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 182, 46);
+  }
+
+  .nav-ul{
+    display: flex;
+    overflow: hidden;
+  }
+
+  .nav-li{
+    list-style: none;
+    margin: 1rem;
+  }
+
+  .nav-a{
+    display: block;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+    color:black;
+  }
+
+  .nav-a:hover{
+    background-color: rgb(230, 165, 45);
+  }
+  .navbar-title {
+    font-family: "Gugi", cursive;
+    font-size: 24;
+    margin: 0px 0px 0px 30px;
+
+  }
+  .navbar-link {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16;
+    margin: 0px 30px 0px 0px;
+  }
+
+  h1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 22;
+    color: white;
+    padding-left: 1em;
+  }
