@@ -4,13 +4,11 @@
   nav {
     position: fixed;
     top: 0px;
-    left: 0px;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: rgb(255, 182, 46);
-    margin-bottom: 1em;
   }
 
   .nav-ul{
@@ -51,4 +49,8 @@
     font-size: 22;
     color: white;
     padding-left: 1em;
+  }
+
+  .navspace{
+    margin-top: 8em;
   }
