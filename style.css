@@ -42,16 +42,18 @@
   .navbar-link {
     font-family: "Montserrat", sans-serif;
     font-size: 16;
+  }
 
+  .main-content{
+    margin-top: 8em;
+    margin-left: 0.5em;
   }
 
   h1{
     font-family: "Montserrat", sans-serif;
     font-size: 22;
     color: white;
-    padding-left: 1em;
+    padding-left: 0.25em;
   }
 
-  .navspace{
-    margin-top: 8em;
-  }
+  
