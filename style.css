@@ -13,22 +13,23 @@
   }
 
   .nav-ul{
-    display: flex;
+    list-style: none;
     overflow: hidden;
-    padding-left: 0px;
+    margin: 0;
+    padding: 0;
   }
 
   .nav-li{
-    list-style: none;
-    margin: 1rem;
+    float:left;
   }
 
   .nav-a{
     display: block;
-    padding: 10px 10px 10px 10px;
+    padding: 35px 30px;
     text-decoration: none;
     color:black;
-  }
+    text-align: center;
+    }
 
   .nav-a:hover{
     background-color: rgb(230, 165, 45);
@@ -36,7 +37,7 @@
   .navbar-title {
     font-family: "Gugi", cursive;
     font-size: 24;
-    margin: 0px 0px 0px 30px;
+    margin-left: 20px;
 
   }
   .navbar-link {
@@ -44,8 +45,13 @@
     font-size: 16;
   }
 
+  .navlink-active{
+    background-color: rgb(230, 144, 45);
+    float:left;
+  }
+
   .main-content{
-    margin-top: 8em;
+    margin-top: 7em;
     margin-left: 0.5em;
   }
 
