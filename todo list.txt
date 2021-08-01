@@ -1,2 +1,4 @@
+======================= MAIN LIST ======================
 - buat profile
-- home.html jadiin welcome page
+
+======================= SIDE LIST ======================
