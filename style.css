@@ -10,6 +10,7 @@
     align-items: center;
     justify-content: space-between;
     background-color: rgb(255, 182, 46);
+    z-index: 1;
   }
 
   .nav-ul{
@@ -50,16 +51,43 @@
     float:left;
   }
 
-  .main-content{
-    margin-top: 7em;
-    margin-left: 0.5em;
+  #welcomescreen{
+    margin-left: -0.5em;
+    justify-content: space-between;
   }
 
-  h1{
+  #welcomecover{
+    background-image: linear-gradient(to right, #16161600,#1616167e, #161616),
+    url("image/home.png");
+    width: 599px;
+    height: 599px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  main{
+    margin-top: 7em;
+  }
+
+  h1, h2{
     font-family: "Montserrat", sans-serif;
-    font-size: 22;
     color: white;
-    padding-left: 0.25em;
+  }
+
+  #wc-title{
+    position: relative;
+    top:3em;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+  }
+
+  #wc-subtitle{
+    font-size: 20px;
+    position: relative;
+    top: 8em;
+    text-align: center;
+    font-weight: 500;
   }
 
   
